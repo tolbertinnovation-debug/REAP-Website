@@ -1,0 +1,46 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"><style>
+*{box-sizing:border-box}body{margin:0;background:#fff;font-family:"Poppins",sans-serif;color:#1e1e1e}
+.wrap{padding:36px 40px;background:#fff;width:1500px}
+h2{margin:0 0 4px;font-size:30px}.sub{color:#666;font-size:15px;margin-bottom:26px}
+.G{background:#1ecc44;color:#0b2a12}.D{background:#0e7c2b;color:#fff}.L{background:#e8f8ec;color:#0b3d17}
+.box{border-radius:14px;padding:18px 22px}
+.chip{display:inline-block;background:#fff;border:1.5px solid #cfe8d6;border-radius:8px;padding:8px 12px;font-size:14px;margin:4px 5px 4px 0;color:#1e1e1e}
+.chipd{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);border-radius:8px;padding:8px 12px;font-size:14px;margin:4px 5px 4px 0;color:#fff}
+.t{font-weight:700;font-size:13px;letter-spacing:.12em;text-transform:uppercase;opacity:.85}
+.url{font-weight:600;font-size:20px;margin:2px 0 10px}
+.users{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.user{border:2px solid #d8dedb;border-radius:12px;padding:14px 16px;background:#f7f9f8}
+.user b{display:block;font-size:16px;margin-bottom:3px}.user span{font-size:13.5px;color:#555}
+.arrow{display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:600;color:#0e7c2b;text-align:center;line-height:1.3}
+.flow{display:grid;grid-template-columns:1fr 170px 1fr;gap:0;align-items:stretch;margin:14px 0}
+.mid{display:flex;flex-direction:column;justify-content:center;gap:22px;padding:0 10px}
+.arr{border-top:3px solid #0e7c2b;position:relative;text-align:center;padding-top:6px;font-size:12.5px;font-weight:600;color:#0e7c2b;line-height:1.25}
+.arr.l{border-top:3px dashed #b46a2c;color:#8a4f1c}
+.arr::after{content:"";position:absolute;right:-2px;top:-9px;border-left:12px solid #0e7c2b;border-top:7.5px solid transparent;border-bottom:7.5px solid transparent}
+.arr.l::after{right:auto;left:-2px;border-left:0;border-right:12px solid #b46a2c}
+.found{background:#12301c;color:#fff;border-radius:14px;padding:18px 22px}
+.found .chipd{margin-right:8px}
+.steps{display:grid;grid-template-columns:repeat(7,1fr);gap:10px}
+.step{border-radius:12px;padding:16px 14px;min-height:250px;position:relative;border-top:8px solid var(--c);background:#f7f9f8;border-left:1px solid #e3e7e5;border-right:1px solid #e3e7e5;border-bottom:1px solid #e3e7e5}
+.step .n{width:34px;height:34px;border-radius:50%;background:var(--c);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center;margin:-34px 0 10px}
+.step b{font-size:15.5px;line-height:1.25;display:block;margin-bottom:6px}.step .r{font-size:12px;font-weight:600;color:var(--c);text-transform:uppercase;letter-spacing:.06em;margin-bottom:8px}
+.step p{font-size:13px;line-height:1.4;color:#444;margin:0 0 8px}.step .sys{font-size:12px;background:#fff;border:1px dashed #b5c4ba;border-radius:6px;padding:7px 8px;color:#2d4a37}
+.note{margin-top:18px;background:#fff8e8;border:1px solid #f1d9a0;border-radius:10px;padding:12px 16px;font-size:14px;color:#6b4a00}
+.tree{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;align-items:start}
+.root{background:#0e7c2b;color:#fff;border-radius:12px;padding:14px 20px;font-weight:700;font-size:20px;text-align:center;width:300px;margin:0 auto 6px}
+.stem{width:3px;height:22px;background:#9dbba6;margin:0 auto}.bar2{height:3px;background:#9dbba6;margin:0 8%}
+.col{display:flex;flex-direction:column;gap:8px;align-items:stretch}
+.hd{background:#fff;border:2px solid #0e7c2b;border-radius:10px;padding:10px 12px;font-weight:700;font-size:16px;text-align:center;position:relative}
+.hd.new{background:#1ecc44;border-color:#0e7c2b;color:#0b2a12}
+.pg{background:#f2f4f3;border:1px solid #dfe3e1;border-radius:8px;padding:8px 12px;font-size:13.5px;position:relative}
+.pg.new{background:#e8f8ec;border:1.5px solid #1ecc44;font-weight:500}
+.nw{position:absolute;top:-8px;right:-6px;background:#b46a2c;color:#fff;font-size:9.5px;font-weight:700;padding:3px 6px;border-radius:4px;letter-spacing:.05em}
+.key{display:flex;gap:26px;font-size:14px;margin-top:24px;align-items:center}.key i{display:inline-block;width:18px;height:18px;border-radius:4px;vertical-align:middle;margin-right:8px}
+</style></head><body><div class="wrap" id="d"><h2>How the REAP platform fits together</h2><div class="sub">One platform, two connected sides, one shared and secure foundation</div>
+<div class="t" style="margin-bottom:8px;color:#555">Who uses it</div>
+<div class="users"><div class="user"><b>Public</b><span>Customers, donors, partners, parents and visitors</span></div><div class="user"><b>Field and farm staff</b><span>Farm manager, supervisors, workers, storekeeper</span></div><div class="user"><b>Office staff</b><span>Sales, finance, programme and M&amp;E officers</span></div><div class="user"><b>Leadership</b><span>Executive Director, management and Board</span></div></div>
+<div class="flow"><div class="box G"><div class="t">Public side</div><div class="url">www.reapwestafrica.org</div><span class="chip">Home &amp; About</span><span class="chip">Programs</span><span class="chip">Farm &amp; Products</span><span class="chip">Order request</span><span class="chip">Impact &amp; stories</span><span class="chip">News &amp; events</span><span class="chip">Partners &amp; donors</span><span class="chip">Contact</span><span class="chip">Staff Login</span></div>
+<div class="mid"><div class="arr">Order requests and enquiries</div><div class="arr l">Approved products, prices, news and stories</div></div>
+<div class="box D"><div class="t">Staff side · login required</div><div class="url">portal.reapwestafrica.org</div><span class="chipd">Dashboard</span><span class="chipd">Farm operations</span><span class="chipd">Inventory &amp; procurement</span><span class="chipd">Sales &amp; orders</span><span class="chipd">NGO programmes</span><span class="chipd">Finance &amp; admin</span><span class="chipd">Reports</span><span class="chipd">Administration</span></div></div>
+<div class="found"><div class="t" style="color:#9fe0b2">Shared secure foundation</div><div style="margin-top:8px"><span class="chipd">Database</span><span class="chipd">Protected file storage</span><span class="chipd">Role-based access</span><span class="chipd">Audit log</span><span class="chipd">Encrypted daily backups</span><span class="chipd">HTTPS hosting</span><span class="chipd">Data export for REAP</span></div></div>
+<div class="note" style="background:#e8f8ec;border-color:#b9e8c6;color:#0b3d17"><b>Built-in separation:</b> every financial record is tagged to Commercial farm, NGO programme or Administration, so reports for the two sides never mix.</div></div></body></html>
